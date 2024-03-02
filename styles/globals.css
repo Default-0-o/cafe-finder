@@ -22,3 +22,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
+input:focus,
+input:focus-visible {
+  outline: none;
+}
