@@ -7,16 +7,14 @@ import Brands from "@/components/shopByBrandas/Brands.jsx";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-    return (
+  return (
     <>
       <Header />
-          
-            {/* <main
+      {/* <main
                   className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
               ></main> */}
-            <Brands />
-            <Footer />
-        </>
-      
+      <Brands />
+      <Footer />
+    </>
   );
 }
