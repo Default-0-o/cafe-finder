@@ -4,9 +4,9 @@ import SwipableBanners from "@/components/pages/Home/SwipableBanners/Index";
 import Button from "@/components/common/Button";
 import { Inter } from "next/font/google";
 import "../components/common/Footer/index.js";
-import Footer from "../components/common/Footer/index.js";
 import Brands from "@/components/shopByBrandas/Brands.jsx";
 import ArrowRight from "@/components/icons/ArrowRight";
+import Banner from "@/components/banner/index.js";
 
 const inter = Inter({ subsets: ["latin"] });
 
