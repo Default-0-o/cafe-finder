@@ -8,8 +8,9 @@ function Layout({ children }) {
       <Header />
       <main
         className={`flex min-h-screen flex-col items-center justify-start px-5`}
-      ></main>
-      {children}
+      >
+        {children}
+      </main>
       <Footer />
     </>
   );
