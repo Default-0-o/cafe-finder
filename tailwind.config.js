@@ -28,6 +28,9 @@ module.exports = {
         "high-emphasis": "#171520",
         "low-emphasis": "#626262",
       },
+      fontFamily: {
+        primary: ["Inter"],
+      },
     },
   },
   plugins: [],
