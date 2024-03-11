@@ -1,9 +1,8 @@
 import React from "react";
 import Phone from "@/public/assets/images/logos/phone.png";
-import ArrowIcon from "../icons/ArrowIcon";
+import ArrowIcon from "../../../icons/ArrowIcon";
 import MakeupBanner from "@/public/assets/images/MakeupBanner.png";
 import MakeupBanner2 from "@/public/assets/images/MakeupBanner2.png";
-import BlackFriday from "@/public/assets/images/BlackFriday.png";
 
 function Banner() {
     return (
@@ -97,19 +96,6 @@ function Banner() {
                                 <ArrowIcon />
                             </button>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div className="pb-16 px-4">
-                <div className="relative  ">
-                    <img
-                        className="absolute left-0 top-0 w-full h-full bg-cover object-cover rounded-xl"
-                        src={BlackFriday.src}
-                        alt=""
-                    />
-                    <div className=" relative text-right py-[108px] lg:text-7xl px-6  md:text-5xl text-2xl ">
-                        <p className="font-bold  pb-3">UPTO 70% OFF</p>
-                        <p className="font-normal"> BLACK FRIDAY</p>
                     </div>
                 </div>
             </div>

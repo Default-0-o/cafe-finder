@@ -6,15 +6,13 @@ import { Inter } from "next/font/google";
 import "../components/common/Footer/index.js";
 import Brands from "@/components/shopByBrandas/Brands.jsx";
 import ArrowRight from "@/components/icons/ArrowRight";
-import Banner from "@/components/banner/index.js";
+import Banner from "@/components/pages/Home/banner/index.js";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
     return (
         <>
-            <Header />
-
             <main
                 className={`flex min-h-screen flex-col items-center justify-start px-5 ${inter.className}`}
             >
@@ -31,7 +29,7 @@ export default function Home() {
   </Button>*/}
             </main>
             <Brands />
-            <Footer />
+            <Banner />
         </>
     );
 }
