@@ -1,0 +1,26 @@
+.thumbs_swiper .img {
+  padding-top: 24px;
+  width: 75px;
+  height: 75px;
+}
+
+.thumbs_swiper {
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.thumbs_swiper .swiper-slide {
+  opacity: 0.4;
+}
+
+.thumbs_swiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+.thumbs_swiper .swiper-button-next {
+  right: 0px;
+  color: black !important;
+}
+.thumbs_swiper .swiper-button-prev {
+  left: 0px;
+  color: black !important;
+}

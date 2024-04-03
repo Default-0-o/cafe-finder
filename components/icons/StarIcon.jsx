@@ -1,6 +1,6 @@
 import React from "react";
 
-function StarIcon({ color = "#B6B6B6" }) {
+function StarIcon({ color = "#B6B6B6", svgProps }) {
   return (
     <>
       <svg
@@ -9,6 +9,7 @@ function StarIcon({ color = "#B6B6B6" }) {
         viewBox="0 0 24 24"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        {...svgProps}
       >
         <g id="Star">
           <path

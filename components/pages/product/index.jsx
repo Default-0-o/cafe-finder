@@ -1,11 +1,11 @@
 import React from "react";
-import ProductInfo from "./productInfo";
-import ProductDescription from "./ProductDescription";
+import ProductInfo from "./productInfo.jsx";
+import ProductDescription from "./productDescription.jsx";
 
 function ProductComponent() {
   return (
-    <div>
-      <ProductInfo/>
+    <div className="">
+      <ProductInfo />
       <ProductDescription />
     </div>
   );
