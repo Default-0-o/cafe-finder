@@ -31,6 +31,9 @@ module.exports = {
       fontFamily: {
         primary: ["Inter"],
       },
+      screens: {
+        xs: "360px",
+      },
     },
   },
   plugins: [],
