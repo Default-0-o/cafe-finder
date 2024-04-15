@@ -31,3 +31,6 @@ input:focus,
 input:focus-visible {
   outline: none;
 }
+main > *{
+  @apply w-full
+}

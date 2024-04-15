@@ -5,14 +5,14 @@ import Button from "@/components/common/Button";
 import "../components/common/Footer/index.js";
 import Brands from "@/components/shopByBrandas/Brands.jsx";
 import ArrowRight from "@/components/icons/ArrowRight";
-import Banner from "@/components/banner/index.js";
+import Banner from "@/components/pages/Home/banner/index.js";
 
 export default function Home() {
-  return (
-    <>
-      <SwipableBanners />
-      <Arrivals />
-      {/*<Button
+    return (
+        <>
+            <SwipableBanners />
+            <Arrivals />
+            {/*<Button
           preIcon={<ArrowRight />}
           onClick={() => {}}
           variant="outline"
@@ -21,7 +21,7 @@ export default function Home() {
         >
           Fuck Me!
   </Button>*/}
-      <Brands />
-    </>
-  );
+            <Brands />
+        </>
+    );
 }

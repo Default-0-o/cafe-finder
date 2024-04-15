@@ -1,18 +1,18 @@
 import React from "react";
 
-function ChevtonRight() {
+function ChevronIcon() {
     return (
         <svg
+            xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
             viewBox="0 0 24 24"
             fill="none"
-            xmlns="http://www.w3.org/2000/svg"
         >
-            <g id="icon/chevron-right">
+            <g id="icon/chevron-bottom">
                 <path
                     id="Vector"
-                    d="M9 4.5L16.5 12L9 19.5"
+                    d="M19.5 9L12 16.5L4.5 9"
                     stroke="#13101E"
                     strokeWidth="2"
                     strokeLinecap="round"
@@ -23,4 +23,4 @@ function ChevtonRight() {
     );
 }
 
-export default ChevtonRight;
+export default ChevronIcon;

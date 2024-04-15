@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "@/public/assets/images/logos/logo.png";
+import Logo from "@/public/assets/images/logos/Logo.png";
 import ChevronRightIcon from "../icons/ChevronRightIcon";
 
 function Brands() {
