@@ -12,9 +12,9 @@ function ChevronRightIcon() {
             <path
                 d="M10 8L14 12L10 16"
                 stroke="#1B4B66"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
             />
         </svg>
     );

@@ -14,9 +14,9 @@ function NegativeIcon() {
                     id="Vector"
                     d="M17 12L7 12"
                     stroke="#13101E"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                 />
             </g>
         </svg>

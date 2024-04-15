@@ -3,10 +3,10 @@ import BlackFriday from "@/public/assets/images/BlackFriday.png";
 
 function Banner() {
     return (
-        <div className="pb-16 px-4">
+        <div className="lg:pb-16  lg:block hidden">
             <div className="relative  ">
                 <img
-                    className="absolute left-0 top-0 w-full h-full bg-cover object-cover rounded-xl"
+                    className="absolute left-0 top-0 w-full h-full bg-cover object-cover rounded-xl "
                     src={BlackFriday.src}
                     alt=""
                 />

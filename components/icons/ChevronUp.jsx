@@ -1,6 +1,6 @@
 import React from "react";
 
-function PlusIcon() {
+function ChevronUp() {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -9,26 +9,23 @@ function PlusIcon() {
             viewBox="0 0 24 24"
             fill="none"
         >
-            <g id="Plus">
+            <g id="icon/chevron-up" clip-path="url(#clip0_128_540)">
                 <path
                     id="Vector"
-                    d="M12 5L12 19"
-                    stroke="#13101E"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                />
-                <path
-                    id="Vector_2"
-                    d="M19 12L5 12"
+                    d="M4.5 15L12 7.5L19.5 15"
                     stroke="#13101E"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                 />
             </g>
+            <defs>
+                <clipPath id="clip0_128_540">
+                    <rect width="24" height="24" fill="white" />
+                </clipPath>
+            </defs>
         </svg>
     );
 }
 
-export default PlusIcon;
+export default ChevronUp;

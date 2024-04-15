@@ -12,9 +12,9 @@ function ArrowIcon() {
             <path
                 d="M5 12.5H19M19 12.5L14.5 8M19 12.5L14.5 17"
                 stroke="white"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
             />
         </svg>
     );

@@ -1,6 +1,6 @@
 import React from "react";
 
-function PlusIcon() {
+function ChevronIcon() {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -9,18 +9,10 @@ function PlusIcon() {
             viewBox="0 0 24 24"
             fill="none"
         >
-            <g id="Plus">
+            <g id="icon/chevron-bottom">
                 <path
                     id="Vector"
-                    d="M12 5L12 19"
-                    stroke="#13101E"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                />
-                <path
-                    id="Vector_2"
-                    d="M19 12L5 12"
+                    d="M19.5 9L12 16.5L4.5 9"
                     stroke="#13101E"
                     strokeWidth="2"
                     strokeLinecap="round"
@@ -31,4 +23,4 @@ function PlusIcon() {
     );
 }
 
-export default PlusIcon;
+export default ChevronIcon;

@@ -1,5 +1,5 @@
 import React from "react";
-import Phone from "@/public/assets/images/logos/phone.png";
+import Phone from "@/public/assets/images/logos/Phone.png";
 import ArrowIcon from "../../../icons/ArrowIcon";
 import MakeupBanner from "@/public/assets/images/MakeupBanner.png";
 import MakeupBanner2 from "@/public/assets/images/MakeupBanner2.png";
