@@ -21,19 +21,19 @@ function Header() {
 
   return (
     <>
-      <div className="flex justify-between px-5 py-[18px]">
+      <div className="flex justify-between gap-2 px-5 py-[18px]">
         <button
           onClick={() => setSideBarStatus((prevState) => !prevState)}
           className="md:hidden flex gap-5 mr-2"
         >
           <Menu />
         </button>
-        <div className="flex gap-5 mr-auto md:mr-0 ">
+        <div className="flex sm:gap-2 lg:gap-5 mr-auto md:mr-0 ">
           <div className="lg:w-32 md:w-22 md:gap-2 sm:w-18 sm:gap-1 ">
-            <Logo svgProps={{ className: "lg:w-32 w-20" }} />
+            <Logo svgProps={{ className: "sm:w-15 lg:w-32 w-20" }} />
           </div>
 
-          <div className="md:flex md:w-12 md:gap-1 sm:w-6 hidden xl:gap-8 text-zinc-900 text-sm font-medium font-['Inter'] leading-[18px]">
+          <div className="md:flex md:w-12 gap-1 sm:w-4 hidden xl:gap-8 text-zinc-900 sm:text-xs mt-0.5 md:p-0 lg:text-sm font-medium leading-none sm:leading-[18px]">
             <Link href={"/"}>
               <p>Handbags</p>
             </Link>
