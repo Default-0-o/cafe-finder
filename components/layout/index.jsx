@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "../common/Header";
 import Footer from "../common/Footer";
-import LayoutPanel from "../pages/profile/LayoutPanel";
 import { useRouter } from "next/router";
+import LayoutPanel from "@/components/pages/profile/layoutpanel";
 
 function Layout({ children }) {
     const router = useRouter();

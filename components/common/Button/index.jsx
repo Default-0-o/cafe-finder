@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Input } from "postcss";
 import React, { useState } from "react";
 
 function Button({
@@ -10,6 +11,7 @@ function Button({
   postIcon,
   size,
   disabled,
+  customClass,
 }) {
   const variants = {
     primary:
@@ -31,7 +33,7 @@ function Button({
       {onClick ? (
         <button
           disabled={disabled}
-          className={`${variants[variant]} ${sizes[size]} border-2 border-solid rounded-lg flex gap-2 justify-center items-center text-center transition-all duration-300 ease-in-out`}
+          className={`${variants[variant]} ${sizes[size]} border-2 border-solid rounded-lg flex gap-2 justify-center items-center text-center transition-all duration-300 ease-in-out ${customClass}`}
           onClick={onClick}
         >
           {preIcon}
@@ -43,7 +45,7 @@ function Button({
       ) : href ? (
         <Link
           disabled={disabled}
-          className={`${variants[variant]} ${sizes[size]} border-2 border-solid rounded-lg flex gap-2 justify-center items-center text-center transition-all duration-300 ease-in-out`}
+          className={`${variants[variant]} ${sizes[size]} border-2 border-solid rounded-lg flex gap-2 justify-center items-center text-center transition-all duration-300 ease-in-out ${customClass}`}
           href={href}
         >
           {preIcon}
