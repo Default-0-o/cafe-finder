@@ -1,4 +1,3 @@
-import Layout from "@/components/layout";
 import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
@@ -17,9 +16,7 @@ export default function Document() {
                 />
             </Head>
             <body>
-                <Layout>
-                    <Main />
-                </Layout>
+                <Main />
                 <NextScript />
             </body>
         </Html>
