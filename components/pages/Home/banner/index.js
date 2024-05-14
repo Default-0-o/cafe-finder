@@ -7,7 +7,7 @@ import MakeupBanner2 from "@/public/assets/images/MakeupBanner2.png";
 function Banner() {
     return (
         <>
-            <div className="  pb-5 px-4 sm:hidden text-white">
+            <div className="  pb-5 px-4 sm:hidden text-white ">
                 <div className=" flex bg-[#1B4B66]  text-center  rounded-xl   p-2">
                     <div className="border bg-[#FFE6CA] rounded-xl text-center ">
                         <div className=" px-7 py-3 pt-6">

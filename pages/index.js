@@ -12,16 +12,8 @@ export default function Home() {
         <>
             <SwipableBanners />
             <Arrivals />
-            {/*<Button
-          preIcon={<ArrowRight />}
-          onClick={() => {}}
-          variant="outline"
-          // disabled
-          size={"lg"}
-        >
-          Fuck Me!
-  </Button>*/}
             <Brands />
+            <Banner />
         </>
     );
 }
