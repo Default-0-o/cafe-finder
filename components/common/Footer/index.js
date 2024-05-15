@@ -210,7 +210,7 @@ function Footer() {
                         </Link>
                     </div>
 
-                    <div className="flex lg:justify-end justify-start text-sm md:pt-8 pt-6 ">
+                    <div className="flex items-center lg:justify-end justify-start text-sm md:pt-8 pt-6 ">
                         <LocationIcon />
                         <p className="	font-weight: 500 text-white pl-2">
                             United States
